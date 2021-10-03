@@ -28,7 +28,7 @@
                     <li><a class="has-arrow" href="javascript:void()"><i
                                 class="bi bi-clipboard-plus"></i><span class="nav-text">생성</span></a>
                     </li>
-                    <li><a class="has-arrow" href="javascript:void()" ><i
+                    <li><a class="has-arrow" href="project_list.jsp" ><i
                                 class="bi bi-clipboard-check"></i><span class="nav-text">관리</span></a>
                     </li>
                     <li class="nav-label">작업</li>
