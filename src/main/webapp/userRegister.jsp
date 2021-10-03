@@ -171,7 +171,9 @@ height:200px;
  #btncommit{ /*등록하기 버튼*/
  position:relative; 
  top:360px;
- left: 50%; 
+ left:45%; 
+  width : 100px;
+  height: 40px;
  }
 </style>
 </head>
