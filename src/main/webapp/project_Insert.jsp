@@ -155,6 +155,6 @@ h3 {
 
 <script src="./js/dashboard/dashboard-1.js"></script>
 <script type="text/javascript">
-	$(".metismenu").children().eq(6).attr('class','mm-active');
+	$(".metismenu").children().eq(3).attr('class','mm-active');
 </script>
 </html>
