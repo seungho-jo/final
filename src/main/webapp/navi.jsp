@@ -25,7 +25,7 @@
                     <li><a class="has-arrow" href="main.jsp"><i class="bi bi-house"></i><span class="nav-text">통합현황</span></a>
                     </li>
                     <li class="nav-label">프로젝트</li>
-                    <li><a class="has-arrow" href="javascript:void()"><i
+                    <li><a class="has-arrow" href="project_Insert.jsp"><i
                                 class="bi bi-clipboard-plus"></i><span class="nav-text">생성</span></a>
                     </li>
                     <li><a class="has-arrow" href="project_list.jsp" ><i
@@ -44,7 +44,7 @@
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                                 class="bi bi-chat"></i><span class="nav-text">채팅</span></a>
                     </li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                    <li><a class="has-arrow" href="projectboard_List.jsp" aria-expanded="false"><i
                                 class="bi bi-receipt-cutoff"></i><span class="nav-text">게시판</span></a>
                     </li>
                     <li class="nav-label">사원</li>
