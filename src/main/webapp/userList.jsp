@@ -20,7 +20,7 @@
 	href="./vendor/owl-carousel/css/owl.theme.default.min.css">
 <link href="./vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
 <link href="./css/style.css" rel="stylesheet">
-<title>사용자 삭제</title>
+<title>사용자 목록</title>
 <script src="https://unpkg.com/vue/dist/vue.js" type="text/javascript"></script>
 <style>
 
@@ -28,7 +28,7 @@ thead{
 
 }
 .div-memberTable{
-	display:block;
+	/*display:block;*/
 	width:100%;
 	overflow-x:auto;
 font-color:black;
@@ -62,6 +62,18 @@ table{
  #pagni01{
  margin-top:80px;
  }
+ #searchForm{
+ position:absolute; 
+ right:17%;
+ top:13%;
+ display:inline-block; 
+ }
+ #btncommit{
+position:absolute; 
+ right:6%;
+ top:13%;
+ }
+
 </style>
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left" theme-layout="wide-layout">
@@ -72,11 +84,23 @@ table{
 		<div class="content-body">
 			 <div class="col-lg-12">
                         <div id="card1">
-                            <div class="card-header">
-                                <h2 style="text-align: left; size: 5%; font-weight: bold; padding: 1em 5em; white-space: nowrap;">사용자 삭제</h2>
-                            </div>
+                               <h2 style="text-align: left; size: 5%; font-weight: bold; padding: 1em 5em; white-space: nowrap;">사용자 목록</h2>
                             <div class="card-body"><!-- 지우면 제일 왼오 바깥 세로선 사라짐  -->
-                                <div class="div-memberTable"><!--table-responsive  -->
+                            
+                           <div class="basic-form">
+                                    <form id="searchForm">
+                                        <div class="form-row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">검색</div>
+                                                    </div>
+                                                    <input type="text" class="form-control" placeholder="이름으로 검색하세요">
+                                                </div>
+                                            </div>
+                                            </div></form>
+ 								<button type="button" id="btncommit" class="btn btn-secondary">등록하기</button> 
+									<div class="div-memberTable" style="margin-top:5%;"><!--table-responsive  -->
                                     <table class="table">   <!--table table-bordered verticle-middle table-responsive-sm  -->
                                         <thead>
                                             <tr id="tableBigname">
@@ -204,22 +228,18 @@ table{
                                     </table>
                                 </div>
                             </div>
+                           
                             <nav>
-                                    <ul class="pagination pagination-gutter justify-content-center" id="pagni01">
-                                        <li class="page-item page-indicator">
-                                            <a class="page-link" href="javascript:void()">
-                                                <i class="icon-arrow-left"></i></a>
-                                        </li>
-                                        <li class="page-item active"><a class="page-link" href="javascript:void()">1</a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void()">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void()">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void()">4</a></li>
-                                        <li class="page-item page-indicator">
-                                            <a class="page-link" href="javascript:void()">
-                                                <i class="icon-arrow-right"></i></a>
-                                        </li>
-                                    </ul>
+                                     <ul class="pagination justify-content-center" id="pagni01">
+								<li class="page-item" id="pre"><a class="page-link">Pre</a></li>
+								<li class="page-item active" id="sel"><a class="page-link">1</a></li>
+								<li class="page-item"><a class="page-link">2</a></li>
+								<li class="page-item"><a class="page-link">3</a></li>
+								<li class="page-item"><a class="page-link">4</a></li>
+								<li class="page-item" id="next"><a class="page-link">
+										Next
+								</a></li>
+							</ul>
                                 </nav>
                         </div>
                     </div>
