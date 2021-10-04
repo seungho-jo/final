@@ -27,6 +27,9 @@ h3 {
 	border-bottom: 1px solid f9f9f9;
 	padding-bottom: 5px;
 }
+table {
+text-align: center;
+}
 </style>
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left"
@@ -46,7 +49,7 @@ h3 {
 							<col width="10%">
 							<col width="50%">
 							<col width="20%">
-							<col width="20%">
+							<col width="50%">
 							<thead>
 								<tr>
 									<th class="text-dark">글번호</th>
@@ -56,6 +59,48 @@ h3 {
 								</tr>
 							</thead>
 							<tbody>
+								<tr>
+									<td class="text-dark">10</td>
+									<td class="text-dark">파일요청의 건</td>
+									<td class="text-dark">홍길동</td>
+									<td class="text-dark">2021-10-04</td>
+								</tr>
+								<tr>
+									<td class="text-dark">9</td>
+									<td class="text-dark">파일요청의 건</td>
+									<td class="text-dark">홍길동</td>
+									<td class="text-dark">2021-10-04</td>
+								</tr>
+								<tr>
+									<td class="text-dark">8</td>
+									<td class="text-dark">파일요청의 건</td>
+									<td class="text-dark">홍길동</td>
+									<td class="text-dark">2021-10-04</td>
+								</tr>
+								<tr>
+									<td class="text-dark">7</td>
+									<td class="text-dark">파일요청의 건</td>
+									<td class="text-dark">홍길동</td>
+									<td class="text-dark">2021-10-04</td>
+								</tr>
+								<tr>
+									<td class="text-dark">6</td>
+									<td class="text-dark">파일요청의 건</td>
+									<td class="text-dark">홍길동</td>
+									<td class="text-dark">2021-10-04</td>
+								</tr>
+								<tr>
+									<td class="text-dark">5</td>
+									<td class="text-dark">파일요청의 건</td>
+									<td class="text-dark">홍길동</td>
+									<td class="text-dark">2021-10-04</td>
+								</tr>
+								<tr>
+									<td class="text-dark">4</td>
+									<td class="text-dark">파일요청의 건</td>
+									<td class="text-dark">홍길동</td>
+									<td class="text-dark">2021-10-04</td>
+								</tr>
 								<tr>
 									<td class="text-dark">3</td>
 									<td class="text-dark">파일요청의 건</td>
@@ -146,5 +191,8 @@ h3 {
 			$(this).attr('class', 'page-item active');
 		}
 	});
+
+	$(".metismenu").children().eq(12).attr('class','mm-active');
+
 </script>
 </html>
