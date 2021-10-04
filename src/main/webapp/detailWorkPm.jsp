@@ -65,7 +65,11 @@
 	border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-#apprReq {
+#reqConfirm {
+	margin-right: 1%;
+}
+
+#companion {
 	margin-right: 1%;
 }
 
@@ -116,9 +120,10 @@
 					<tr>
 						<th>작업 내용</th>
 						<td>지난 주 작업한 내용 정리 및 주간 회의 발표 자료 10부 준비</td>
-						<th>반려 이유</th>
-						<td>보고서 내 맞춤법 틀림</td>
+						<th>승인 메시지</th>
+						<td>작업 완료하였습니다 확인 부탁드립니다</td>
 					</tr>
+					<!-- 파일 다운로드 배울시 변경 예정 -->
 					<tr>
 						<th>첨부파일</th>
 						<td><div class="custom-file">
@@ -129,14 +134,15 @@
 					</tr>
 				</table>
 				<div id="btnCol">
-					<button class="btn btn-primary" id="apprReq" data-toggle="modal" data-target="#exampleModalCenter">승인요청</button>
+					<button class="btn btn-primary" id="reqConfirm" data-toggle="modal" data-target="#exampleModalCenter1">작업승인</button>
+					<button class="btn btn-danger" id="companion" data-toggle="modal" data-target="#exampleModalCenter2">작업반려</button>
 					<button class="btn btn" id="back">뒤로가기</button>
 				</div>
-				<div class="modal fade" id="exampleModalCenter">
+				<div class="modal fade" id="exampleModalCenter1">
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title">승인 요청</h5>
+								<h5 class="modal-title">작업 승인</h5>
 								<button type="button" class="close" data-dismiss="modal">
 									<span>&times;</span>
 								</button>
@@ -147,7 +153,27 @@
 							<div class="modal-footer">
 								<button type="button" class="btn btn" id="close"
 									data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary" >승인요청</button>
+								<button type="button" class="btn btn-primary" >작업승인</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="exampleModalCenter2">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">작업 반려</h5>
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<textarea class="form-control" rows="7" style="resize : none;"></textarea>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn" id="close"
+									data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-danger" >작업반려</button>
 							</div>
 						</div>
 					</div>

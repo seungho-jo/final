@@ -38,7 +38,7 @@
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                                 class="bi bi-calendar-week"></i><span class="nav-text">일정</span></a>
                     </li>
-                    <li><a class="has-arrow" href="widget-basic.html" aria-expanded="false"><i 
+                    <li><a class="has-arrow" href="risk_Index.jsp" aria-expanded="false"><i 
                     			class="bi bi-exclamation-circle"></i><span class="nav-text">리스크</span></a></li>
                     <li class="nav-label">커뮤니티</li>
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
