@@ -23,6 +23,11 @@
 <link href="./css/risk_Insert.css" rel="stylesheet">
 <title>Insert title here</title>
 <script src="https://unpkg.com/vue/dist/vue.js" type="text/javascript"></script>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+	crossorigin="anonymous">
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left"
 	theme-layout="wide-layout">
@@ -40,14 +45,12 @@
 					    	</div>
 					    </div>
 					    <div class="col-6 mb-3">
-					    	<div class="form-floating">
-						      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+						      <select id="status" class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
 						        <option selected>프로젝트</option>
 						        <option value="1">One</option>
 						        <option value="2">Two</option>
 						        <option value="3">Three</option>
 						      </select>
-					    	</div>
 					  	</div>	
 					<!-- 리스크명 -->
 						<div class="col-4 mb-3">
