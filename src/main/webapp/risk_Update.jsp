@@ -23,6 +23,11 @@
 <link href="./css/risk_Update.css" rel="stylesheet">
 <title>Insert title here</title>
 <script src="https://unpkg.com/vue/dist/vue.js" type="text/javascript"></script>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+	crossorigin="anonymous">
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left"
 	theme-layout="wide-layout">
@@ -77,14 +82,12 @@
 						    	</div>
 						    </div>
 						    <div class="col-6 mb-3">
-						    	<div class="form-floating">
-							      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+							    <select class="form-select" aria-label="Default select example">
 							        <option selected>리스크상태</option>
 							        <option value="1">One</option>
 							        <option value="2">Two</option>
 							        <option value="3">Three</option>
 							      </select>
-						    	</div>
 						  	</div>	
 						<!-- 등록자 -->	
 							<div class="col-md-3 mb-3">
@@ -135,7 +138,11 @@
 					<div class="form-floating">
 					  <label for="floatingTextarea2">himan</label>
 					  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" 
-					  	style="height: 100px"></textarea>
+					  	style="height: 100px">
+					  	</textarea>
+					  	<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  							<button class="btn btn-primary me-md-2" type="button">댓글 등록</button>
+  						</div>
 					</div> 		
 				</div>
 			</div>

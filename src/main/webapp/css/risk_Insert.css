@@ -6,6 +6,10 @@
 	font-weight: bold;
 }
 
+#status{
+	width : 30%;
+}
+
 #button_left{
 	position:relative;
 	left:90%;

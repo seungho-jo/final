@@ -23,6 +23,11 @@
 <link href="./css/risk_Index.css" rel="stylesheet">
 <title>Insert title here</title>
 <script src="https://unpkg.com/vue/dist/vue.js" type="text/javascript"></script>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+	crossorigin="anonymous">
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left"
 	theme-layout="wide-layout">
@@ -50,7 +55,11 @@
 		
 		<div class="card">
 			<div class="card-body">
-				<div class="table-responsive">
+				<button type="button" class="btn btn-primary" id="button">등록하기</button>
+			<div id="content_cnt">
+				<h6 id="title">전체게시글 : 5</h6>	
+			</div>
+		<div class="table-responsive">
 		<table id="bootstrap-data-table" class="table table-bordered table-hover table-responsive-sm" width="100%" align="center">
 			<thead>
 				<tr>
@@ -68,7 +77,7 @@
 					<td class="text-dark">himan</td>
 					<td class="text-dark">2021.09.28</td>
 					<td class="text-dark"><span class="badge bg-success">조치완료</span></td>
-					<td class="text-dark"><select>
+					<td class="text-dark"><select class="form-select" id="status-1">
 							<option>himan</option>
 							<option>higirl</option>
 							<option>yjkim</option>
@@ -79,7 +88,7 @@
 					<td class="text-dark">higirl</td>
 					<td class="text-dark">2021.09.29</td>
 					<td class="text-dark"><span class="badge bg-secondary">홀드</span></td>
-					<td class="text-dark"><select>
+					<td class="text-dark"><select class="form-select" id="status-1">
 							<option>himan</option>
 							<option>higirl</option>
 							<option>yjkim</option>
@@ -90,7 +99,7 @@
 					<td class="text-dark">yjkim</td>
 					<td class="text-dark">2021.09.27</td>
 					<td class="text-dark"><span class="badge bg-primary">진행중</span></td>
-					<td class="text-dark"><select>
+					<td class="text-dark"><select class="form-select" id="status-1">
 							<option>himan</option>
 							<option>higirl</option>
 							<option>yjkim</option>
@@ -101,7 +110,7 @@
 					<td class="text-dark">hongildong</td>
 					<td class="text-dark">2021.09.27</td>
 					<td class="text-dark"><span class="badge bg-primary">진행중</span></td>
-					<td><select>
+					<td><select class="form-select" id="status-1">
 							<option>himan</option>
 							<option>higirl</option>
 							<option>yjkim</option>
@@ -112,7 +121,7 @@
 					<td class="text-dark">PM</td>
 					<td class="text-dark">2021.09.28</td>
 					<td class="text-dark"><span class="badge bg-secondary">홀드</span></td>			
-					<td><select>
+					<td><select class="form-select" id="status-1">
 							<option>himan</option>
 							<option>higirl</option>
 							<option>yjkim</option>
@@ -120,7 +129,6 @@
 				</tr>
 			</tbody>
 		</table>
-		<button type="button" class="btn btn-primary" id="button">등록하기</button>
 		</div>
 		</div>
 		<ul class="pagination justify-content-center" id="paging">
