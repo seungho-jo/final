@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#title{
+	position : relative;
+	left:62%;
+	font-weight: bold;
+}
+
+#button_left{
+	position:relative;
+	left:90%;
+}
+#button_right{
+	position:relative;
+	left:10%;
+}
