@@ -51,6 +51,7 @@ h3 {
 #insertbtn {
 	margin-top:	50px;	
     display: inline-block;
+    width: 97%;
 }
 #title, #date-start, #date-end, #team-cnt{
 	height:39px;
@@ -58,6 +59,18 @@ h3 {
 #titlediv {
     padding-left: 34px;
 }
+.input-group-text {
+    position: relative;
+    left: 24%;
+}
+.custom-file {
+	position: relative;
+    left: 2%;
+}
+.custom-file-label {
+	width: 96%;
+}
+
 </style>
 
 <title>Insert title here</title>
@@ -80,17 +93,27 @@ h3 {
 									 <input type="text"
 										class="form-control" id="title" placeholder="글 제목을 입력하세요." value=""
 										required>
-									<div class="invalid-feedback">이름을 입력해주세요.</div>
 								</div>
 							</div>
 
 							<div class="card-body">
                                 <div class="summernote"></div>
                             </div>
-
-							<div class="mb-4 text-center">							
-							<button id="insertbtn" class="btn btn-primary btn-lg btn-block center-block" type="submit">등록</button>
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<span class="input-group-text">첨부 파일</span>
+								</div>
+								<div class="custom-file">
+									<input type="file" name="report" class="custom-file-input"
+										id="file01"> <label class="custom-file-label"
+										for="file01"> 파일을 선택하세요. </label>
+								</div>
 							</div>
+								<div class="mb-4 text-center">
+									<button id="insertbtn"
+										class="btn btn-primary btn-lg btn-block center-block"
+										type="submit">등록</button>
+								</div>
 						</form>
 					</div>
 				</div>
