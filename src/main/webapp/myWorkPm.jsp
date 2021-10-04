@@ -20,7 +20,7 @@
 	href="./vendor/owl-carousel/css/owl.theme.default.min.css">
 <link href="./vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
 <link href="./css/style.css" rel="stylesheet">
-<link href="./css/myWork.css" rel="stylesheet">
+<link href="./css/myWorkPm.css" rel="stylesheet">
 <title>Insert title here</title>
 <script src="https://unpkg.com/vue/dist/vue.js" type="text/javascript"></script>
 <link
@@ -36,29 +36,11 @@
 		<jsp:include page="navi.jsp" />
 		<div class="content-body">
 			<div class="card">
-				<div class="card-body">
-					<form style="display: flex;">
-						<select id="status" class="form-select">
-							<option>상태 선택</option>
-							<option>진행중</option>
-							<option>반려됨</option>
-						</select> <select id="proOrsub" class="form-select">
-							<option>검색어 선택</option>
-							<option>프로젝트명</option>
-							<option>작업명</option>
-						</select>
-						<div class="input-group" id="gp1">
-							<input type="text" class="form-control input-sm">
-							<div class="input-group-append">
-								<button class="btn btn-primary">검색하기</button>
-							</div>
-						</div>
-						<button class="btn btn-primary" id="apprReq">승인요청</button>
-					</form>
+				<h2 id="card-title">요청된 작업</h2>
+				<div id="colBtn">
+					<button class="btn btn-primary" id="reqConfirm">작업승인</button>
+					<button class="btn btn-danger" id="companion">작업반려</button>
 				</div>
-			</div>
-			<div class="card">
-				<h2 id="card-title">내 작업</h2>
 				<div class="card-body" id="card-body">
 					<div class="table-responsive">
 						<table class="table table-hover table-responsive-sm" id="workList">
@@ -76,7 +58,7 @@
 							<tbody>
 								<tr>
 									<th><input type="checkbox" class="text-dark"></th>
-									<td class="text-dark"><a href="detailWork.jsp" class="text-dark">주간 보고서</a></td>
+									<td class="text-dark"><a href="detailWorkPm.jsp" class="text-dark">주간 보고서</a></td>
 									<td class="text-dark">SL솔루션 homepage</td>
 									<td class="text-dark">PM01</td>
 									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
