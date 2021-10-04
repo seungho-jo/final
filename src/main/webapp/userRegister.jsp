@@ -187,7 +187,8 @@ height:200px;
       <div id="card1">
       
          <h2
-            style="text-align: left; size: 5%; font-weight: bold; padding: 1em 5em; white-space: nowrap;">사용자
+            style="text-align: left; size: 5%; font-weight: bold; padding: 1em 5em;
+             white-space: nowrap;">사용자
             등록</h2>
          <div class="div-nametextform">
             <div class="form-name-badge">
