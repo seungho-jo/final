@@ -241,7 +241,27 @@ height:200px;
          </div><!-- .div-temporary-id-pass -->    
         
          
-   <button type="button" id="btncommit" class="btn btn-secondary">등록하기</button> 
+   <button type="button" id="btncommit" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">등록하기</button> 
+   
+   <div class="modal fade" id="exampleModalCenter">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="modaltitle">사용자 등록</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body" id="modalbody">
+                                                <h5>등록 하시겠습니까?</h5>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">등록</button>
+                                                    <button type="button" class="btn btn-primary" data-dismiss="modal">취소</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div><!-- .card-body -->
 </div> <!-- .card1 -->
       </div> <!-- .content-body -->
       
