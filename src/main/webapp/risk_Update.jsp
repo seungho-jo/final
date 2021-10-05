@@ -126,6 +126,10 @@
 				<div class="card-header">
 					<h4 class="card-title">조치내역</h4>
 				</div>
+				<div id="action_btn">
+  					<button class="btn btn-primary me-md-2" type="button"
+  					data-toggle="modal" data-target="#exampleModalCenter">조치등록</button>
+  				</div>
 				<div class="card-body">
 					 		
 				</div>
@@ -140,12 +144,62 @@
 					  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" 
 					  	style="height: 100px">
 					  	</textarea>
-					  	<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+					  	<div class="d-flex justify-content-end">
   							<button class="btn btn-primary me-md-2" type="button">댓글 등록</button>
   						</div>
 					</div> 		
 				</div>
 			</div>
+			<!--  modal --> 
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLongTitle">조치 상세페이지</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        <div class="row g-2">
+						<div class="col-4 mb-3">
+						
+					     		<h4 id="title">조치자 명 </h4>
+					    	
+					    </div>
+					     <div class="col-6 mb-3">
+					    		<input type="text" class="form-control" placeholder="조치자명 작성" aria-label="조치자명 작성">
+					  	</div>
+					  	<div class="col-4 mb-3">
+							
+						     		<h4 id="title">조치내용</h4>
+						    	
+						    </div>
+						    <div class="col-6 mb-3">
+								  <textarea class="form-control" placeholder="조치내용을 입력하세요." id="floatingTextarea2" style="height: 100px"></textarea>
+								  <label for="floatingTextarea2"></label>
+						  	</div>
+						  	<div class="col-4 mb-3">
+						     		<h4 id="title">리스크 상태</h4>
+						    </div>
+						    <div class="col-4 mb-3">
+							    <select class="form-select" aria-label="Default select example" id="modal_status">
+							        <option selected>리스크상태</option>
+							        <option value="1">One</option>
+							        <option value="2">Two</option>
+							        <option value="3">Three</option>
+							      </select>
+						  	</div>	
+			      </div>
+			      <div class="modal-footer">
+			      	<div class="d-flex justify-content-center">
+			        	<button type="button" class="btn btn-primary">조치완료</button>
+			      	</div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			
 			
 		<jsp:include page="footer.jsp" />
 	</div>
