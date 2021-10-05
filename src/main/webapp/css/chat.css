@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#showcontent {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+#chatbox {
+  margin-right: 50px;
+  height: 700px;
+  border: 1px solid lightgray;
+}
+
+.contentarea {  
+  height: 700px;
+}
