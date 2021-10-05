@@ -47,77 +47,89 @@ text-align: center;
 					<div class="table-responsive">
 						<table class="table table-responsive-sm table-hover">
 							<col width="10%">
-							<col width="50%">
-							<col width="20%">
-							<col width="50%">
+							<col width="54%">
+							<col width="13%">
+							<col width="13%">
+							<col width="10%">
 							<thead>
 								<tr>
 									<th class="text-dark">글번호</th>
 									<th class="text-dark">제목</th>
 									<th class="text-dark">작성자</th>
 									<th class="text-dark">등록일자</th>
+									<th class="text-dark">조회수</th>
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">10</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">9</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">8</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">7</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">6</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">5</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">4</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">3</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">2</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
-								<tr>
+								<tr onclick="location.href='projectboard_Detail.jsp'">
 									<td class="text-dark">1</td>
 									<td class="text-dark">파일요청의 건</td>
 									<td class="text-dark">홍길동</td>
 									<td class="text-dark">2021-10-04</td>
+									<td class="text-dark">3</td>
 								</tr>
 							</tbody>
 						</table>
