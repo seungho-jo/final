@@ -74,6 +74,9 @@ position:absolute;
  top:13%;
  }
 
+#modalbody{
+text-align:center;
+}
 </style>
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left" theme-layout="wide-layout">
@@ -99,7 +102,7 @@ position:absolute;
                                                 </div>
                                             </div>
                                             </div></form>
- 								<button type="button" id="btncommit" class="btn btn-secondary">등록하기</button> 
+ 								<button type="button" id="btncommit" class="btn btn-secondary" onclick="location.href='userRegister.jsp'"></a>등록하기</button> 
 									<div class="div-memberTable" style="margin-top:5%;"><!--table-responsive  -->
                                     <table class="table">   <!--table table-bordered verticle-middle table-responsive-sm  -->
                                         <thead>
@@ -119,8 +122,8 @@ position:absolute;
                                                 <td>happy11</td>
                                                 <td>
                                                     <span>
-                                                        <a href="javascript:void()" data-toggle="tooltip"
-                                                            data-placement="top" title="Close"><i
+                                                        <a data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
+                                                            data-placement="top" title="Close" ><i
                                                                 class="fa fa-close color-danger"></i></a>
                                                     </span>
                                                 </td>
@@ -131,7 +134,7 @@ position:absolute;
                                                 <td>유형준</td>
                                                 <td>josb001</td>
                                                 <td><span>
-                                                          <a href="javascript:void()" data-toggle="tooltip"
+                                                          <a data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -142,7 +145,7 @@ position:absolute;
                                                 <td>한설윤</td>
                                                 <td>goodgirl123</td>
                                                 <td><span><a
-                                                            href="javascript:void()" data-toggle="tooltip"
+                                                            data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -153,7 +156,7 @@ position:absolute;
                                                 <td>윤지혜</td>
                                                 <td>yuunjye</td>
                                                 <td><span><a
-                                                            href="javascript:void()" data-toggle="tooltip"
+                                                            data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -164,7 +167,7 @@ position:absolute;
                                                 <td>황천옥</td>
                                                 <td>happy01234</td>
                                                 <td><span><a
-                                                            href="javascript:void()" data-toggle="tooltip"
+                                                            data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -175,7 +178,7 @@ position:absolute;
                                                 <td>황천옥</td>
                                                 <td>happy01234</td>
                                                 <td><span><a
-                                                            href="javascript:void()" data-toggle="tooltip"
+                                                            data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -186,7 +189,7 @@ position:absolute;
                                                 <td>황천옥</td>
                                                 <td>happy01234</td>
                                                 <td><span><a
-                                                            href="javascript:void()" data-toggle="tooltip"
+                                                            data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -197,7 +200,7 @@ position:absolute;
                                                 <td>황천옥</td>
                                                 <td>happy01234</td>
                                                 <td><span><a
-                                                            href="javascript:void()" data-toggle="tooltip"
+                                                            data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -208,7 +211,7 @@ position:absolute;
                                                 <td>황천옥</td>
                                                 <td>happy01234</td>
                                                 <td><span><a
-                                                            href="javascript:void()" data-toggle="tooltip"
+                                                            data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -219,7 +222,7 @@ position:absolute;
                                                 <td>황천옥</td>
                                                 <td>happy01234</td>
                                                 <td><span><a
-                                                            href="javascript:void()" data-toggle="tooltip"
+                                                            data-toggle="modal" data-target="#exampleModalCenter" data-toggle="tooltip"
                                                             data-placement="top" title="Close"><i
                                                                 class="fa fa-close color-danger"></i></a></span>
                                                 </td>
@@ -241,7 +244,26 @@ position:absolute;
 								</a></li>
 							</ul>
                                 </nav>
-                        </div>
+                                 <div class="modal fade" id="exampleModalCenter">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="modaltitle">사용자 삭제</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body" id="modalbody">
+                                                <h5>직원을 삭제하시겠습니까?</h5>
+                                                
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">삭제</button>
+                                                    <button type="button" class="btn btn-primary" data-dismiss="modal">취소</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div><!-- .card-body -->
                     </div>
                                
                                 </div><!-- .content-body -->
