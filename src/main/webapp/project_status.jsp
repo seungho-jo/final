@@ -78,9 +78,7 @@
 		                   </div>
 		                   <div class="tab-pane fade" id="issue">
 		                       <div class="pt-4">
-		                           <h4>issue/risk title</h4>
-		                           <p>내용1</p>
-		                           <p>내용2</p>
+		                           <jsp:include page="project_Risk.jsp"/>
 		                       </div>
                       		</div>
                       	

@@ -67,65 +67,38 @@
 					<th class="text-dark">등록자</th>
 					<th class="text-dark">등록일</th>
 					<th class="text-dark">리스크 상태</th>
-					<th class="text-dark">조치자</th>
-					
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td class="text-dark">리스크1</td>
+					<td class="text-dark"><a href="risk_Update.jsp">리스크1</td>
 					<td class="text-dark">himan</td>
 					<td class="text-dark">2021.09.28</td>
 					<td class="text-dark"><span class="badge bg-success">조치완료</span></td>
-					<td class="text-dark"><select class="form-select" id="status-1">
-							<option>himan</option>
-							<option>higirl</option>
-							<option>yjkim</option>
-						</select></td>
 				</tr>
 				<tr>
 					<td class="text-dark">리스크2</td>
 					<td class="text-dark">higirl</td>
 					<td class="text-dark">2021.09.29</td>
 					<td class="text-dark"><span class="badge bg-secondary">홀드</span></td>
-					<td class="text-dark"><select class="form-select" id="status-1">
-							<option>himan</option>
-							<option>higirl</option>
-							<option>yjkim</option>
-						</select></td>
 				</tr>
 				<tr>
 					<td class="text-dark">리스크3</td>
 					<td class="text-dark">yjkim</td>
 					<td class="text-dark">2021.09.27</td>
 					<td class="text-dark"><span class="badge bg-primary">진행중</span></td>
-					<td class="text-dark"><select class="form-select" id="status-1">
-							<option>himan</option>
-							<option>higirl</option>
-							<option>yjkim</option>
-						</select></td>
 				</tr>
 				<tr>
 					<td class="text-dark">리스크4</td>
 					<td class="text-dark">hongildong</td>
 					<td class="text-dark">2021.09.27</td>
 					<td class="text-dark"><span class="badge bg-primary">진행중</span></td>
-					<td><select class="form-select" id="status-1">
-							<option>himan</option>
-							<option>higirl</option>
-							<option>yjkim</option>
-						</select></td>
 				</tr>
 				<tr>
 					<td class="text-dark">리스크5</td>
 					<td class="text-dark">PM</td>
 					<td class="text-dark">2021.09.28</td>
 					<td class="text-dark"><span class="badge bg-secondary">홀드</span></td>			
-					<td><select class="form-select" id="status-1">
-							<option>himan</option>
-							<option>higirl</option>
-							<option>yjkim</option>
-						</select></td>
 				</tr>
 			</tbody>
 		</table>
