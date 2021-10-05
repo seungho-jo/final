@@ -94,6 +94,3 @@
 					</a></li>
 				</ul>
 	</div>		
-			
-		</table>
-	</div>

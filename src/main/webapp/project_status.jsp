@@ -29,68 +29,63 @@
 		<jsp:include page="header.jsp" />
 		<jsp:include page="navi.jsp" />
 		<div class="content-body">
-		<div class="card">
-	       <div class="card-header">
-	           <h4 class="card-title">프로젝트 상세</h4>
-	       </div>
-		       <div class="card-body">
-		           <!-- Nav tabs -->
-		           <div class="default-tab">
-		               <ul class="nav nav-tabs" role="tablist">
-		                   <li class="nav-item">
-		                       <a class="nav-link active" data-toggle="tab" href="#summary">요약정보</a>
-		                   </li>
-		                   <li class="nav-item">
-		                       <a class="nav-link" data-toggle="tab" href="#wbs">WBS</a>
-		                   </li>
-		                   <li class="nav-item">
-		                       <a class="nav-link" data-toggle="tab" href="#resource">리소스</a>
-		                   </li>
-		                   <li class="nav-item">
-		                       <a class="nav-link" data-toggle="tab" href="#issue">이슈/리스크</a>
-		                   </li>
-		                   
-		                   <li class="nav-item">
-		                       <a class="nav-link" data-toggle="tab" href="#output">산출물</a>
-		                   </li>
-		               </ul>
-		               <div class="tab-content">
-		                   <div class="tab-pane fade show active" id="summary" role="tabpanel">
-		                       <div class="pt-4">
-		                           <h4>summary title</h4>
-		                           <p>내용1</p>
-		                           <p>내용2</p>
-		                       </div>
-		                   </div>
-		                   <div class="tab-pane fade" id="wbs">
-		                       <div class="pt-4">
-		                           <h4>wbs title</h4>
-		                           <p>내용1</p>
-		                           <p>내용2</p>
-		                       </div>
-		                   </div>
-		                   <div class="tab-pane fade" id="resource">
-		                       <div class="pt-4">
-		                           <h4>resource title</h4>
-		                           <p>내용1</p>
-		                           <p>내용2</p>
-		                       </div>
-		                   </div>
-		                   <div class="tab-pane fade" id="issue">
-		                       <div class="pt-4">
-		                           <jsp:include page="project_Risk.jsp"/>
-		                       </div>
-                      		</div>
-                      	
-                      		<div class="tab-pane fade" id="output">
-		                       <div class="pt-4">
-		                           <jsp:include page="Outputs.jsp"/>
-		                       </div>
-                      		</div>
-                          </div>
-                      </div>
-                  </div>
-               </div>
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">프로젝트 상세</h4>
+				</div>
+				<div class="card-body">
+					<!-- Nav tabs -->
+					<div class="default-tab">
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item"><a class="nav-link active"
+								data-toggle="tab" href="#summary">요약정보</a></li>
+							<li class="nav-item"><a class="nav-link" data-toggle="tab"
+								href="#wbs">WBS</a></li>
+							<li class="nav-item"><a class="nav-link" data-toggle="tab"
+								href="#resource">리소스</a></li>
+							<li class="nav-item"><a class="nav-link" data-toggle="tab"
+								href="#issue">이슈/리스크</a></li>
+
+							<li class="nav-item"><a class="nav-link" data-toggle="tab"
+								href="#output">산출물</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane fade show active" id="summary"
+								role="tabpanel">
+								<div class="pt-4">
+									<h4>summary title</h4>
+									<p>내용1</p>
+									<p>내용2</p>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="wbs">
+								<div class="pt-4">
+									<h4>wbs title</h4>
+									<p>내용1</p>
+									<p>내용2</p>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="resource">
+								<div class="pt-4">
+									<h4>resource title</h4>
+									<p>내용1</p>
+									<p>내용2</p>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="issue">
+								<div class="pt-4">
+									<jsp:include page="project_Risk.jsp" />
+								</div>
+							</div>
+							<div class="tab-pane fade" id="output">
+								<div class="pt-4">
+									<jsp:include page="Outputs.jsp" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<jsp:include page="footer.jsp" />
 	</div>
@@ -126,6 +121,6 @@
 
 <script src="./js/dashboard/dashboard-1.js"></script>
 <script type="text/javascript">
-	$(".metismenu").children().eq(4).attr('class','mm-active');
+	$(".metismenu").children().eq(4).attr('class', 'mm-active');
 </script>
 </html>
