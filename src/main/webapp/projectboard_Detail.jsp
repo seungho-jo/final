@@ -37,6 +37,9 @@ h3 {
 	padding-left: 16px;
 }
 
+#form-backgroud{
+	min-height: 500px;
+}
 .input-form {
 	max-width: 680px;
 	margin-top: 10px;
@@ -58,7 +61,9 @@ h3 {
 	float: right;
 	margin: 0.5%;
 }
-
+#uptbtn {
+	margin-right: 18px;
+}
 #title, #date-start, #date-end, #team-cnt {
 	height: 39px;
 }
@@ -76,23 +81,29 @@ h3 {
 .custom-file-label {
 	width: 96%;
 }
-#detailinfo{
-	margin-left: 3px;
+#titlediv {
+	margin-left: 4px;
 }
-#filediv{
+#detailinfo {
+	margin-left: 10px;
+}
+
+#filediv {
 	margin-top: 15px;
 }
-#contentdiv{
-    display: block;
-    width: 100%;
-	min-height: 15%;
+
+#contentdiv {
+	display: block;
+	width: 96%;
+	min-height: 30%;
 	border: 1px solid #eaeaea;
 	padding: 0.375rem 0.75rem;
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.5;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	margin: auto;
 }
 </style>
 
@@ -107,7 +118,7 @@ h3 {
 		<div class="content-body">
 			<div class="container">
 
-				<div class="input-form-backgroud row">
+				<div class="input-form-backgroud row" id="form-backgroud">
 					<div class="input-form col-md-12 mx-auto">
 						<div id="titlediv">
 							<h3>파일요청의 건</h3>
@@ -132,39 +143,18 @@ h3 {
 							</div>
 						</div>
 						<div id="contentdiv">
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
-							<h3>asdfasdfasdfasdfdasgsagsdg</h3>
+							<span>파일부탁드립니다.</span>
 						</div>
 
 
 						<div class="input-group mb-3" id="filediv">
 							<div class="input-group-prepend">
 								<span class="input-group-text">첨부 파일</span>
+							</div>
+							<div class="custom-file">
+								<input type="file" name="report" class="custom-file-input"
+									id="file01"> <label class="custom-file-label"
+									for="file01"> 양식.html </label>
 							</div>
 						</div>
 						<div class="mb-4 text-center">
