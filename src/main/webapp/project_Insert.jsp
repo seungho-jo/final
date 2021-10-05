@@ -54,7 +54,7 @@ h3 {
 }
 </style>
 
-<title>Insert title here</title>
+<title>SOPMS</title>
 <script src="https://unpkg.com/vue/dist/vue.js" type="text/javascript"></script>
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left"
