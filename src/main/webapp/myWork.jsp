@@ -79,90 +79,90 @@
 									<td class="text-dark"><a href="detailWork.jsp" class="text-dark">주간 보고서</a></td>
 									<td class="text-dark">SL솔루션 homepage</td>
 									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
-								</tr>
-								<tr>
-									<th><input type="checkbox" class="text-dark"></th>
-									<td class="text-dark">주간 요구사항 정의서</td>
-									<td class="text-dark">SL솔루션 homepage</td>
-									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
+									<td class="text-dark"><span class="badge badge-info">진행중</span></td>
+									<td class="text-dark">21/09/27</td>
+									<td class="text-dark">21/10/01</td>
 								</tr>
 								<tr>
 									<th><input type="checkbox" class="text-dark"></th>
 									<td class="text-dark">index page</td>
 									<td class="text-dark">SL솔루션 homepage</td>
 									<td class="text-dark">PM01</td>
+									<td class="text-dark"><span class="badge badge-info">진행중</span></td>
+									<td class="text-dark">21/09/27</td>
+									<td class="text-dark">21/10/06</td>
+								</tr>
+								<tr>
+									<th><input type="checkbox" class="text-dark"></th>
+									<td class="text-dark">요구사항 정의서</td>
+									<td class="text-dark">SL솔루션 homepage</td>
+									<td class="text-dark">PM01</td>
 									<td class="text-dark"><span class="badge badge-danger">반려됨</span></td>
 									<td class="text-dark">21/09/23</td>
+									<td class="text-dark">21/09/26</td>
+								</tr>
+								<tr>
+									<th><input type="checkbox" class="text-dark"></th>
+									<td class="text-dark">최종 보고서</td>
+									<td class="text-dark">현대 모비스 서버 증축</td>
+									<td class="text-dark">PM01</td>
+									<td class="text-dark"><span class="badge badge-info">진행중</span></td>
 									<td class="text-dark">21/09/25</td>
+									<td class="text-dark">21/09/30</td>
+								</tr>
+								<tr>
+									<th><input type="checkbox" class="text-dark"></th>
+									<td class="text-dark">서버 통신 불량</td>
+									<td class="text-dark">현대 모비스 서버 증축</td>
+									<td class="text-dark">PM01</td>
+									<td class="text-dark"><span class="badge badge-success">완료됨</span></td>
+									<td class="text-dark">21/09/04</td>
+									<td class="text-dark">21/09/08</td>
 								</tr>
 								<tr>
 									<th><input type="checkbox" class="text-dark"></th>
 									<td class="text-dark">주간 보고서</td>
-									<td class="text-dark">SL솔루션 homepage</td>
+									<td class="text-dark">현대 모비스 서버 증축</td>
 									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
+									<td class="text-dark"><span class="badge badge-success">완료됨</span></td>
+									<td class="text-dark">21/09/04</td>
+									<td class="text-dark">21/09/08</td>
 								</tr>
 								<tr>
 									<th><input type="checkbox" class="text-dark"></th>
 									<td class="text-dark">주간 보고서</td>
-									<td class="text-dark">SL솔루션 homepage</td>
+									<td class="text-dark">현대 모비스 서버 증축</td>
 									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
+									<td class="text-dark"><span class="badge badge-success">완료됨</span></td>
+									<td class="text-dark">21/08/27</td>
+									<td class="text-dark">21/09/01</td>
 								</tr>
 								<tr>
 									<th><input type="checkbox" class="text-dark"></th>
 									<td class="text-dark">주간 보고서</td>
-									<td class="text-dark">SL솔루션 homepage</td>
+									<td class="text-dark">GS_SHOP 홈페이지</td>
 									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
+									<td class="text-dark"><span class="badge badge-success">완료됨</span></td>
+									<td class="text-dark">21/08/27</td>
+									<td class="text-dark">21/09/01</td>
 								</tr>
 								<tr>
 									<th><input type="checkbox" class="text-dark"></th>
-									<td class="text-dark">주간 보고서</td>
-									<td class="text-dark">SL솔루션 homepage</td>
+									<td class="text-dark">Modal 창 에러 제거</td>
+									<td class="text-dark">GS_SHOP 홈페이지</td>
 									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
+									<td class="text-dark"><span class="badge badge-success">완료됨</span></td>
+									<td class="text-dark">21/08/27</td>
+									<td class="text-dark">21/09/01</td>
 								</tr>
 								<tr>
 									<th><input type="checkbox" class="text-dark"></th>
-									<td class="text-dark">주간 보고서</td>
-									<td class="text-dark">SL솔루션 homepage</td>
+									<td class="text-dark">결제 오류 확인</td>
+									<td class="text-dark">GS_SHOP 홈페이지</td>
 									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
-								</tr>
-								<tr>
-									<th><input type="checkbox" class="text-dark"></th>
-									<td class="text-dark">주간 보고서</td>
-									<td class="text-dark">SL솔루션 homepage</td>
-									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
-								</tr>
-								<tr>
-									<th><input type="checkbox" class="text-dark"></th>
-									<td class="text-dark">주간 보고서</td>
-									<td class="text-dark">SL솔루션 homepage</td>
-									<td class="text-dark">PM01</td>
-									<td class="text-dark"><span class="badge badge-success">진행중</span></td>
-									<td class="text-dark">21/09/23</td>
-									<td class="text-dark">21/09/25</td>
+									<td class="text-dark"><span class="badge badge-success">완료됨</span></td>
+									<td class="text-dark">21/08/20</td>
+									<td class="text-dark">21/09/26</td>
 								</tr>
 							</tbody>
 						</table>
