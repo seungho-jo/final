@@ -30,14 +30,14 @@
                             <div class="col-xl-12">
                                 <div class="auth-form">
                                     <h4 class="text-center mb-4">SOPMS LOGIN</h4>
-                                    <form action="main.jsp">
+                                    <form method="post" action="main.jsp">
                                         <div class="form-group">
                                             <label><strong>ID</strong></label>
-                                            <input type="email" class="form-control" >
+                                            <input type="text" name="id" class="form-control" >
                                         </div>
                                         <div class="form-group">
                                             <label><strong>Password</strong></label>
-                                            <input type="password" class="form-control" >
+                                            <input type="password" name="pass" class="form-control" >
                                         </div>
                                         <div class="form-row d-flex justify-content-between mt-4 mb-2">
                                             <div class="form-group">
@@ -47,11 +47,11 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <a href="page-forgot-password.html">문의하기</a>
+                                                <a href="#">문의하기</a>
                                             </div>
                                         </div>
                                         <div class="text-center">
-                                            <button id=lgbtn type="submit" class="btn btn-primary btn-block">로그인</button>
+                                            <button id="lgbtn" type="button" class="btn btn-primary btn-block">로그인</button>
                                         </div>
                                     </form>
                                     
@@ -72,7 +72,19 @@
     <script src="./vendor/global/global.min.js"></script>
     <script src="./js/quixnav-init.js"></script>
     <script src="./js/custom.min.js"></script>
-    
+    <script type="text/javascript">
+    $("#lgbtn").click(function(){
+    	if($("[name=id]").val()==""){
+    		alert("아이디를 입력해주세요");
+    		$("[name=id]").focus();
+    	}else if($("[name=pass]").val()==""){
+    		alert("비밀번호를 입력해주세요");
+    		$("[name=pass]").focus();
+    	}else{
+    		$("form").submit();
+    	}
+    });
+    </script>
 
 </body>
 

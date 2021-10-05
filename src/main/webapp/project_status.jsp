@@ -86,9 +86,7 @@
                       	
                       		<div class="tab-pane fade" id="output">
 		                       <div class="pt-4">
-		                           <h4>output title</h4>
-		                           <p>내용1</p>
-		                           <p>내용2</p>
+		                           <jsp:include page="Outputs.jsp"/>
 		                       </div>
                       		</div>
                           </div>
