@@ -38,6 +38,8 @@
 		<jsp:include page="navi.jsp" />
 		<div class="content-body">
 		
+		<div class ="card">
+		
 		  <div id="showcontent">
 
     <div id="chatbox">
@@ -54,10 +56,10 @@
       </div>
       <div class="profileArea">
         <ul class="list-group">
-          <li class="list-group-item disabled" aria-disabled="true">
+          <li class="list-group-item" aria-disabled="true">
             내 프로필
           </li>
-          <li class="list-group-item disabled" aria-disabled="true">
+          <li class="list-group-item" aria-disabled="true">
             <div class="profileItem myProfile">
               <div class="itemBox">
                 <div class="profilePic">
@@ -65,8 +67,8 @@
                 </div>
                 <div class="profileContent">
                   <ul>
-                    <li class="name">김광진 부장</li>
-                    <li class="position">Project Manager</li>
+                    <li class="name">이진섭 대리</li>
+                    <li class="position">인사관리모듈 개발</li>
                   </ul>
                 </div>
                 <div class="groupchat"></div>
@@ -95,7 +97,7 @@
                         <div class="profileContent">
                           김광진 부장
                           <br>
-                          Project Manager
+                          프로젝트 매니저
                         </div>
                       </div>
                     </div>
@@ -107,9 +109,37 @@
                           <div class="photo"></div>
                         </div>
                         <div class="profileContent">
-                          김광진 부장
+                          박진행 과장
                           <br>
-                          Project Manager
+                          회계모듈 개발
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                   <a href="#" class="list-group-item list-group-item-action">
+                    <div class="profileItem myProfile">
+                      <div class="itemBox">
+                        <div class="profilePic">
+                          <div class="photo"></div>
+                        </div>
+                        <div class="profileContent">
+                          최승민 사원
+                          <br>
+                          일정관리모듈 개발
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                   <a href="#" class="list-group-item list-group-item-action">
+                    <div class="profileItem myProfile">
+                      <div class="itemBox">
+                        <div class="profilePic">
+                          <div class="photo"></div>
+                        </div>
+                        <div class="profileContent">
+                          박규민 사원
+                          <br>
+                          기획자
                         </div>
                       </div>
                     </div>
@@ -125,7 +155,7 @@
       <div class="topbar">
         <div class="chatname">김광진 부장</div>
       </div>
-      <div id="chats">
+      <div class="chats">
         <div class="messagearea">
           <div class="messageitem yourmessage">
             <div class="photoarea">
@@ -138,8 +168,7 @@
                   <div class="bubbleend">
                     <div class="pick"></div>
                   </div>
-                  <div class="bubblecontent">동해물과백두산이마르고닳도록하느님이보우하사우리나라만세무궁화삼천리화려강산대한사람대한으로길이보전하세
-                    남산위에저소나무철갑을두른듯바람서리불변함은우리기상일세무궁화삼천리화려강산대한사람대한으로길이보전하세
+                  <div class="bubblecontent">작성하신 보고서 내용 잘 보았습니다. 특별한 문제는 발견하지 못했으니 일단 이 내용대로 개발 진행해주시면 될 것 같습니다. 혹시 개발중 변경사항 생기면 다시 메시지 부탁드립니다.
                   </div>
                 </div>
                 <div class="chatinfo">
@@ -156,10 +185,10 @@
               <div class="photo"></div>
             </div>
             <div class="content">
-              <div class="name">김광진 부장</div>
+              <div class="name">이진섭 대리</div>
               <div class="message">
                 <div class="chatbubble">
-                  <div class="bubblecontent">이랬다저랬다</div>
+                  <div class="bubblecontent">알겠습니다 부장님!</div>
                 </div>
                 <div class="chatinfo">
                   <div class="shown">1</div>
@@ -196,10 +225,8 @@
   </div>
 		
   		</div>
-
-</body>
-
-</html>
+  		
+  		</div>
 
 		<jsp:include page="footer.jsp" />
 	</div>
