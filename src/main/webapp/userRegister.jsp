@@ -184,7 +184,7 @@ height:200px;
       <jsp:include page="header.jsp" />
       <jsp:include page="navi.jsp" />
       <div class="content-body" >
-      <div id="card1">
+      <div class = "card">
       
          <h2
             style="text-align: left; size: 5%; font-weight: bold; padding: 1em 5em;

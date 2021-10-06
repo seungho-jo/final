@@ -1,20 +1,25 @@
 @charset "UTF-8";
 
+.card {
+	padding: 0px 50px;
+	min-height: 500px;
+}
+
 #showcontent {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-  padding: 30px;
   border-radius: 30px;
 }
 
 #chatbox {
-  margin-right: 50px;
+	overflow-y:auto;
+	width: 40%;
   height: 700px;
-  border: 1px solid lightgray;
 }
 
-.contentarea {  
+.contentarea { 
+	
+	width: 50%;
   height: 700px;
 }
