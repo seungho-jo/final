@@ -20,11 +20,13 @@
 	href="./vendor/owl-carousel/css/owl.theme.default.min.css">
 <link href="./vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
 <link href="./css/style.css" rel="stylesheet">
+
 <title>Insert title here</title>
 <script src="https://unpkg.com/vue/dist/vue.js" type="text/javascript"></script>
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left"
 	theme-layout="wide-layout">
+	
 	<div id="main-wrapper">
 		<jsp:include page="header.jsp" />
 		<jsp:include page="navi.jsp" />
@@ -64,9 +66,9 @@
 		                   </div>
 		                   <div class="tab-pane fade" id="wbs">
 		                       <div class="pt-4">
-		                           <h4>wbs title</h4>
-		                           <p>내용1</p>
-		                           <p>내용2</p>
+		                      	 
+		       						<jsp:include page="02_load_json.html"/>
+		                           
 		                       </div>
 		                   </div>
 		                   <div class="tab-pane fade" id="resource">
@@ -96,6 +98,7 @@
                   </div>
                </div>
 		</div>
+		
 		<jsp:include page="footer.jsp" />
 	</div>
 </body>
@@ -105,9 +108,11 @@
 <script src="./js/custom.min.js"></script>
 
 
-<!-- Vectormap -->
+<!-- Vectormap 
 <script src="./vendor/raphael/raphael.min.js"></script>
-<script src="./vendor/morris/morris.min.js"></script>
+<script src="./vendor/morris/morris.min.js"></script>-->
+
+
 
 
 <script src="./vendor/circle-progress/circle-progress.min.js"></script>
@@ -122,13 +127,13 @@
 <!-- Owl Carousel -->
 <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
 
-<!-- Counter Up -->
+<!-- Counter Up <script src="./js/dashboard/dashboard-1.js"></script>-->
 <script src="./vendor/jqvmap/js/jquery.vmap.min.js"></script>
 <script src="./vendor/jqvmap/js/jquery.vmap.usa.js"></script>
 <script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
 
 
-<script src="./js/dashboard/dashboard-1.js"></script>
+
 <script type="text/javascript">
 	$(".metismenu").children().eq(4).attr('class','mm-active');
 </script>
