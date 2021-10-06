@@ -60,9 +60,7 @@
 							</div>
 							<div class="tab-pane fade" id="wbs">
 								<div class="pt-4">
-									<h4>wbs title</h4>
-									<p>내용1</p>
-									<p>내용2</p>
+									<jsp:include page="02_load_json.html"/>
 								</div>
 							</div>
 							<div class="tab-pane fade" id="resource">
