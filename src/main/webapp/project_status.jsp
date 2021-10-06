@@ -53,9 +53,7 @@
 							<div class="tab-pane fade show active" id="summary"
 								role="tabpanel">
 								<div class="pt-4">
-									<h4>summary title</h4>
-									<p>내용1</p>
-									<p>내용2</p>
+									<jsp:include page="project_status_sum.jsp"></jsp:include>
 								</div>
 							</div>
 							<div class="tab-pane fade" id="wbs">
