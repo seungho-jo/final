@@ -35,7 +35,7 @@
                     <li><a class="has-arrow" href="myWork.jsp" aria-expanded="false"><i
                                 class="bi bi-file-earmark-ruled"></i><span class="nav-text">내작업</span></a>
                     </li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                    <li><a class="has-arrow" href="calendar_mem.jsp" aria-expanded="false"><i
                                 class="bi bi-calendar-week"></i><span class="nav-text">일정</span></a>
                     </li>
                     <li><a class="has-arrow" href="risk_Index.jsp" aria-expanded="false"><i 
