@@ -200,61 +200,61 @@
 											<tr id="tableBigname">
 												<th scope="col">이름</th>
 												<th scope="col">부서</th>
-												<th scope="col">현재상황</th>
+												<th scope="col">직급</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr class="hoverTr">
 												<td>김지은</td>
-												<td>기획팀</td>
-												<td>프로젝트1</td>
+												<td>디자인팀1</td>
+												<td>부장</td>
 											</tr>
 											<tr class="hoverTr">
 												<td>윤효주</td>
-												<td>기획팀</td>
-												<td>프로젝트1</td>
+												<td>디자인팀1</td>
+												<td>차장</td>
 											</tr>
 											<tr class="hoverTr">
 												<td>조성빈</td>
-												<td>기획팀</td>
-												<td>프로젝트1</td>
+												<td>기획팀1</td>
+												<td>과장</td>
 											</tr>
 											<tr class="hoverTr">
 												<td>정다운</td>
-												<td>기획팀</td>
-												<td>프로젝트3</td>
+												<td>기획팀1</td>
+												<td>과장</td>
 											</tr>
 											<tr class="hoverTr">
 												<td>황숙빈</td>
-												<td>기획팀</td>
-												<td>프로젝트2</td>
+												<td>개발팀1</td>
+												<td>과장</td>
 											</tr>
 											<tr class="hoverTr">
 												<td>윤지성</td>
-												<td>기획팀</td>
-												<td>본사</td>
+												<td>개발팀2</td>
+												<td>대리</td>
 											</tr>
 											<tr class="hoverTr">
 												<td>김태형</td>
-												<td>기획팀</td>
-												<td>본사</td>
+												<td>개발팀2</td>
+												<td>대리</td>
 											</tr>
 											<tr class="hoverTr">
 												<td>윤대원</td>
-												<td>기획팀</td>
-												<td>본사</td>
+												<td>디자인팀1</td>
+												<td>주임</td>
 
 											</tr>
 											<tr class="hoverTr">
 												<td>심형래</td>
-												<td>기획팀</td>
-												<td>프로젝트2</td>
+												<td>디자인팀1</td>
+												<td>주임</td>
 
 											</tr>
 											<tr class="hoverTr">
 												<td>천성필</td>
-												<td>기획팀</td>
-												<td>프로젝트1</td>
+												<td>개발팀2</td>
+												<td>사원</td>
 											</tr>
 										</tbody>
 									</table>
@@ -322,13 +322,12 @@
 
 						// console.log("배열 형태: " + name, dept, job);
 						// 여기서 tdArr[0] 데이터를 이차원 배열로 하나씩 끄집어냄 ex = tdArr[0][0] = "조성빈", tdArr[0][1] = "디자인팀"
-						for (var i = 0; i < tdArr.length; i++) {
+						for(var i = 0; i < tdArr.length; i++) {
 							tdArrText += "<font size='5' font color=gray>"
 									+ tdArr[i][0] + "</font>"
 									+ "<font size='5' font color=gray>"
 									+ tdArr[i][1] + "<br></font>"; // 출력은 바깥에서 선언한 배열을 출력    
 						}
-
 						console.log(tdArrText)
 						$("#result").html(tdArrText);
 
