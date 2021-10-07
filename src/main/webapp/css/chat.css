@@ -15,11 +15,12 @@
 #chatbox {
 	overflow-y:auto;
 	width: 40%;
-  height: 700px;
+  height: 50vw;
+  border: 1px solid lightgray;
 }
 
 .contentarea { 
 	
 	width: 50%;
-  height: 700px;
+  height: 50vw;
 }

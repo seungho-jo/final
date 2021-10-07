@@ -23,7 +23,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/teamlist.css" />
-  <link rel="stylesheet" href="./css/messagelist.css" />
   <link rel="stylesheet" href="./css/chat.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
@@ -76,7 +75,7 @@
             </div>
           </li>
         </ul>
-        <div class="accordion">
+        <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -89,7 +88,7 @@
               <div class="accordion-body">
                 <div class="list-group">
                   <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                    <div class="profileItem myProfile">
+                    <div class="profileItem">
                       <div class="itemBox">
                         <div class="profilePic">
                           <div class="photo"></div>
@@ -103,7 +102,7 @@
                     </div>
                   </a>
                   <a href="#" class="list-group-item list-group-item-action">
-                    <div class="profileItem myProfile">
+                    <div class="profileItem">
                       <div class="itemBox">
                         <div class="profilePic">
                           <div class="photo"></div>
@@ -117,7 +116,7 @@
                     </div>
                   </a>
                    <a href="#" class="list-group-item list-group-item-action">
-                    <div class="profileItem myProfile">
+                    <div class="profileItem">
                       <div class="itemBox">
                         <div class="profilePic">
                           <div class="photo"></div>
@@ -131,7 +130,7 @@
                     </div>
                   </a>
                    <a href="#" class="list-group-item list-group-item-action">
-                    <div class="profileItem myProfile">
+                    <div class="profileItem">
                       <div class="itemBox">
                         <div class="profilePic">
                           <div class="photo"></div>
@@ -151,77 +150,13 @@
         </div>
       </div>
     </div>
+    
+    <!-- 채팅방 Start -->
     <div class="contentarea">
-      <div class="topbar">
-        <div class="chatname">김광진 부장</div>
-      </div>
-      <div class="chats">
-        <div class="messagearea">
-          <div class="messageitem yourmessage">
-            <div class="photoarea">
-              <div class="photo"></div>
-            </div>
-            <div class="content">
-              <div class="name">김광진 부장</div>
-              <div class="message">
-                <div class="chatbubble">
-                  <div class="bubbleend">
-                    <div class="pick"></div>
-                  </div>
-                  <div class="bubblecontent">작성하신 보고서 내용 잘 보았습니다. 특별한 문제는 발견하지 못했으니 일단 이 내용대로 개발 진행해주시면 될 것 같습니다. 혹시 개발중 변경사항 생기면 다시 메시지 부탁드립니다.
-                  </div>
-                </div>
-                <div class="chatinfo">
-                  <div class="shown">1</div>
-                  <div class="time">12:30 PM</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="messagearea">
-          <div class="messageitem mymessage">
-            <div class="photoarea">
-              <div class="photo"></div>
-            </div>
-            <div class="content">
-              <div class="name">이진섭 대리</div>
-              <div class="message">
-                <div class="chatbubble">
-                  <div class="bubblecontent">알겠습니다 부장님!</div>
-                </div>
-                <div class="chatinfo">
-                  <div class="shown">1</div>
-                  <div class="time">12:30 PM</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="inputarea">
-        <div class="inputmessage">
-          <div class="form-group">
-            <div class="textarea"><textarea class="form-control" rows="4"></textarea></div>
-          </div>
-        </div>
-        <div class="optionstab">
-          <ul>
-            <a>
-              <li class="icons"><span class="material-icons">
-                  add_a_photo
-                </span></li>
-            </a>
-            <a>
-              <li class="icons"><span class="material-icons">
-                  attach_file
-                </span></li>
-            </a>
-          </ul>
-          <button type="button" class="btn btn-light">전송</button>
-        </div>
-      </div>
+		<jsp:include page="messagelist.jsp" />
     </div>
+<!-- 채팅방 END -->
+
   </div>
 		
   		</div>
