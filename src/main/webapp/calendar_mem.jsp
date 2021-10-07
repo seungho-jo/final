@@ -48,9 +48,16 @@
 		<jsp:include page="header.jsp" />
 		<jsp:include page="navi.jsp" />
 		<div class="content-body">
+
 			<div class="card">
 				<div class="card-body">
 					<div class="container">
+			<!-- Page Heading_전체일정 -->
+			<div
+				class="d-sm-flex align-items-center justify-content-between mb-4">
+				<h1 class="h3 mb-0 font-weight-bold text-gray-800">전체 일정</h1>
+				<button type="button" onclick="location.href='manage_mem.jsp'" class="btn btn-primary">관리 페이지</button>
+			</div>
 						<!-- 일자 클릭시 메뉴오픈 -->
 						<div id="wrapper">
 							<div id="loading"></div>
@@ -202,5 +209,6 @@
 
 <script src="./js/dashboard/dashboard-1.js"></script>
 <script type="text/javascript">
+	
 </script>
 </html>
