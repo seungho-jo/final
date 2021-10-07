@@ -26,10 +26,8 @@
 		</div>
 	</div>
 		<div class="nav-header">
-			<a href="main.jsp" class="brand-logo"> <img class="logo-abbr"
-				src="./images/logo.png" alt=""> <img class="logo-compact"
-				src="./images/logo-text.png" alt=""> <img class="brand-title"
-				src="./images/logo-text.png" alt="">
+			<a href="main.jsp" class="brand-logo"> 
+				<img src="./images/SOPMS-logo.png" alt="" style="width:80%">
 			</a>
 
 			<div class="nav-control">
