@@ -48,7 +48,7 @@
 					    </div>
 					     <div class="col-6 mb-3">
 					    	<div class="form-floating">
-					    		<input type="text" class="form-control" placeholder="프로젝트명 작성" aria-label="프로젝트명 작성">
+					    		<h5>요구사항작성누락</h5>
 					    	</div>
 					  	</div>
 					  	
@@ -60,7 +60,7 @@
 					    	</div>
 						     <div class="col-6 mb-3">
 						    	<div class="form-floating">
-						    		<input type="text" class="form-control" placeholder="프로젝트명 작성" aria-label="프로젝트명 작성">
+						    		<h5>리스크1</h5>
 						    	</div>
 						  	</div>
 						<!-- 리스크내용 -->
@@ -71,8 +71,7 @@
 						    </div>
 						    <div class="col-6 mb-3">
 						    	<div class="form-floating">
-								  <textarea class="form-control" placeholder="리스크내용을 입력하세요." id="floatingTextarea2" style="height: 100px"></textarea>
-								  <label for="floatingTextarea2"></label>
+								 	<h5>요구사항정의서 작성 누락되었습니다!!</h5>
 								</div>
 						  </div>
 						<!-- 리스크상태 -->	
@@ -82,12 +81,7 @@
 						    	</div>
 						    </div>
 						    <div class="col-6 mb-3">
-							    <select class="form-select" aria-label="Default select example">
-							        <option selected>리스크상태</option>
-							        <option value="1">One</option>
-							        <option value="2">Two</option>
-							        <option value="3">Three</option>
-							      </select>
+							    <h5>진행중</h5>
 						  	</div>	
 						<!-- 등록자 -->	
 							<div class="col-md-3 mb-3">
@@ -96,9 +90,7 @@
 						    	</div>
 							</div>
 							<div class="col-md-3 mb-3">
-								<div class="form-floating">
-						     		<input type="text" class="form-control" placeholder="등록자" aria-label="등록자" id="title_1_ipt">
-						    	</div>
+								<h5>김영진</h5>
 							</div>
 							<div class="col-md-3 mb-3">
 								<div class="form-floating">
@@ -107,7 +99,7 @@
 							</div>
 							<div class="col-md-3 mb-3">
 								<div class="form-floating">
-						     		<input type="text" class="form-control" placeholder="등록일" aria-label="등록자" id="title_2_ipt">
+						     		<h5>2021.09.30</h5>
 						    	</div>
 							</div>
 					</div>

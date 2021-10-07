@@ -55,7 +55,7 @@
 		
 		<div class="card">
 			<div class="card-body">
-				<button type="button" class="btn btn-primary" id="button">등록하기</button>
+				<button type="button" class="btn btn-primary" id="button" onclick="location.href='risk_Insert.jsp'">등록하기</button>
 			<div id="content_cnt">
 				<h6 id="title">전체게시글 : 5</h6>	
 			</div>
