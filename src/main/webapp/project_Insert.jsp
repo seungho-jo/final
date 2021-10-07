@@ -77,12 +77,12 @@ h3 {
 									<div class="invalid-feedback">이름을 입력해주세요.</div>
 								</div>
 								<div class="col-md-6 mb-3">
-									<label for="name" class="text-dark">분류</label> 
+									<label for="name" class="text-dark">부서</label> 
 									<select	class="form-select">
 										<option>분류선택</option>
-										<option value="1">One</option>
-										<option value="2">Two</option>
-										<option value="3">Three</option>
+										<option value="1">기획팀</option>
+										<option value="2">디자인팀</option>
+										<option value="3">개발팀</option>
 									</select>
 								</div>
 							</div>

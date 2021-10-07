@@ -208,6 +208,6 @@ h3 {
 
 <script src="./js/dashboard/dashboard-1.js"></script>
 <script type="text/javascript">
-	$(".metismenu").children().eq(12).attr('class', 'mm-active');
+	$(".metismenu").children().eq(11).attr('class', 'mm-active');
 </script>
 </html>

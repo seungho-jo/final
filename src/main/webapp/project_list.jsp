@@ -40,7 +40,7 @@
                                 <h4>프로젝트 리스트</h4>
                             </div>
                             <div class="card-body">
-                            	<button type="button" class="btn btn-primary">등록하기</button>
+                            	<button type="button" class="btn btn-primary" id="regBtn">등록하기</button>
                                 <div class="table-responsive">
                                     <table class="table table-responsive-sm table-hover">
                                         <thead>
@@ -280,5 +280,8 @@
 			$(this).attr('class', 'page-item active');
 		}
 	});
+	$("#regBtn").click(function(){
+		location.href = "project_Insert.jsp";
+	})
 </script>
 </html>

@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+#risk_title{
+	margin: 2% 0 2%20%;
+}
 #title{
 	position : relative;
 	left:62%;
