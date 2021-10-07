@@ -28,6 +28,11 @@
 	rel="stylesheet"
 	integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
 	crossorigin="anonymous">
+<style type="text/css">
+#card-title{
+	margin: 2% 0px 0px 1%;
+}
+</style>
 </head>
 <body hoe-navigation-type="horizontal" hoe-nav-placement="left"
 	theme-layout="wide-layout">
@@ -54,13 +59,14 @@
 		</div>
 		
 		<div class="card">
+		<h2 id="card-title">리스크</h2>
 			<div class="card-body">
 				<button type="button" class="btn btn-primary" id="button" onclick="location.href='risk_Insert.jsp'">등록하기</button>
 			<div id="content_cnt">
 				<h6 id="title">전체게시글 : 5</h6>	
 			</div>
 		<div class="table-responsive">
-		<table id="bootstrap-data-table" class="table table-bordered table-hover table-responsive-sm" width="100%" align="center">
+		<table id="bootstrap-data-table" class="table table-hover table-responsive-sm" width="100%" align="center">
 			<thead>
 				<tr>
 					<th class="text-dark">리스크 제목</th>

@@ -42,7 +42,8 @@
 							<option>상태 선택</option>
 							<option>진행중</option>
 							<option>반려됨</option>
-						</select> <select id="proOrsub" class="form-select">
+						</select> 
+						<select id="proOrsub" class="form-select">
 							<option>검색어 선택</option>
 							<option>프로젝트명</option>
 							<option>작업명</option>
@@ -58,7 +59,7 @@
 				</div>
 			</div>
 			<div class="card">
-				<h2 id="card-title">내 작업</h2>
+			<h2 id="card-title">내 작업</h2>
 				<div class="card-body" id="card-body">
 					<div class="table-responsive">
 						<table class="table table-hover table-responsive-sm" id="workList">

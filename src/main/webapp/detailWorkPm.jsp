@@ -127,9 +127,7 @@
 					<tr>
 						<th>첨부파일</th>
 						<td><div class="custom-file">
-								<input type="file" name="report" class="custom-file-input"
-									id="file01"> <label class="custom-file-label"
-									for="file01"> 파일을 선택하세요! </label>
+								주간 보고서
 							</div></td>
 					</tr>
 				</table>
