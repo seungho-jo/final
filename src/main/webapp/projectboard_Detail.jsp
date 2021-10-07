@@ -157,14 +157,56 @@ h3 {
 									for="file01"> 양식.html </label>
 							</div>
 						</div>
-						<div class="mb-4 text-center">
-							<button id="uptbtn"
+							<button id="uptbtn" data-toggle="modal"
+								data-target="#exampleModalCenter"
 								class="btn btn-primary btn-lg btn-block center-block"
-								type="submit">수정</button>
-							<button id="delbtn"
-								class="btn btn-primary btn-lg btn-block center-block"
-								type="submit">삭제</button>
-						</div>
+								type="button">수정</button>
+							<button id="delbtn" data-toggle="modal"
+								data-target="#exampleModalCenter2"
+								class="btn btn-danger btn-lg btn-block center-block"
+								type="button">삭제</button>
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModalCenter">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">게시물 수정</h5>
+											<button type="button" class="close" data-dismiss="modal">
+												<span>&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<h5>게시물을 수정하시겠습니까?</h5>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-light"
+												data-dismiss="modal">취소</button>
+											<button type="button" class="btn btn-primary">수정</button>
+										</div>
+									</div>
+								</div>
+							</div>						
+							<div class="modal fade" id="exampleModalCenter2">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">게시물 삭제</h5>
+											<button type="button" class="close" data-dismiss="modal">
+												<span>&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<h5>게시물을 삭제하시겠습니까?</h5>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-light"
+												data-dismiss="modal">취소</button>
+											<button type="button" class="btn btn-danger">삭제</button>
+										</div>
+									</div>
+								</div>
+							</div>						
+						
 					</div>
 				</div>
 			</div>
