@@ -29,13 +29,15 @@
 body {
 	min-height: 100vh;
 }
+
 h3 {
-	margin-bottom:100px;
+	margin-bottom: 100px;
 }
+
 .input-form {
 	max-width: 680px;
 	margin-top: 10px;
-	margin-bottom:50px;
+	margin-bottom: 50px;
 	padding: 32px;
 	background: #fff;
 	-webkit-border-radius: 10px;
@@ -45,12 +47,14 @@ h3 {
 	-moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15)
 }
+
 #insertbtn {
-	margin-top:	50px;	
-    display: inline-block;
+	margin-top: 50px;
+	display: inline-block;
 }
-#title, #date-start, #date-end, #team-cnt{
-	height:39px;
+
+#title, #date-start, #date-end, #team-cnt {
+	height: 39px;
 }
 </style>
 
@@ -64,21 +68,21 @@ h3 {
 		<jsp:include page="navi.jsp" />
 		<div class="content-body">
 			<div class="container">
-			
+
 				<div class="input-form-backgroud row">
 					<div class="input-form col-md-12 mx-auto">
 						<h3 class="mb-5">프로젝트 등록</h3>
 						<form class="validation-form" novalidate>
 							<div class="row">
 								<div class="col-md-6 mb-3">
-									<label for="name" class="text-dark">프로젝트명</label> <input type="text"
-										class="form-control" id="title" placeholder="" value=""
-										required>
+									<label for="name" class="text-dark">프로젝트명</label> <input
+										type="text" class="form-control" id="title" placeholder=""
+										value="" required>
 									<div class="invalid-feedback">이름을 입력해주세요.</div>
 								</div>
 								<div class="col-md-6 mb-3">
-									<label for="name" class="text-dark">부서</label> 
-									<select	class="form-select">
+									<label for="name" class="text-dark">부서</label> <select
+										class="form-select">
 										<option>분류선택</option>
 										<option value="1">기획팀</option>
 										<option value="2">디자인팀</option>
@@ -88,33 +92,56 @@ h3 {
 							</div>
 							<div class="row">
 								<div class="col-md-6 mb-3">
-									<label for="name" class="text-dark">시작일</label> <input type="text"
-										class="form-control" id="date-start" placeholder="" value=""
-										required>
+									<label for="name" class="text-dark">시작일</label> <input
+										type="text" class="form-control" id="date-start"
+										placeholder="" value="" required>
 								</div>
 								<div class="col-md-6 mb-3">
-									<label for="name" class="text-dark">종료일</label> <input type="text"
-										class="form-control" id="date-end" placeholder="" value=""
-										required>
+									<label for="name" class="text-dark">종료일</label> <input
+										type="text" class="form-control" id="date-end" placeholder=""
+										value="" required>
 								</div>
 							</div>
 
 							<div class="row">
 								<div class="col-md-6 mb-3">
-									<label for="name" class="text-dark">팀원수</label> <input type="text"
-										class="form-control" id="team-cnt" placeholder="" value=""
-										required>
+									<label for="name" class="text-dark">팀원수</label> <input
+										type="text" class="form-control" id="team-cnt" placeholder=""
+										value="" required>
 								</div>
 							</div>
 							<div class="mb-3">
-								<label for="exampleFormControlTextarea1" class="form-label text-dark">프로젝트 설명</label>
+								<label for="exampleFormControlTextarea1"
+									class="form-label text-dark">프로젝트 설명</label>
 								<textarea class="form-control" id="exampleFormControlTextarea1"
 									rows="7"></textarea>
 							</div>
-
-							<div class="mb-4 text-center">							
-							<button id="insertbtn" class="btn btn-primary btn-lg btn-block center-block" type="submit">등록</button>
+							<button id="insertbtn" data-toggle="modal"
+								data-target="#exampleModalCenter"
+								class="btn btn-primary btn-lg btn-block center-block"
+								type="button">등록</button>
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModalCenter">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">프로젝트 등록</h5>
+											<button type="button" class="close" data-dismiss="modal">
+												<span>&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<h5>프로젝트를 등록하시겠습니까?</h5>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-light"
+												data-dismiss="modal">취소</button>
+											<button type="button" class="btn btn-primary">등록</button>
+										</div>
+									</div>
+								</div>
 							</div>
+
 						</form>
 					</div>
 				</div>
@@ -122,7 +149,7 @@ h3 {
 
 			</div>
 			<jsp:include page="footer.jsp" />
-	</div>
+		</div>
 </body>
 <!-- Required vendors -->
 <script src="./vendor/global/global.min.js"></script>
@@ -155,6 +182,6 @@ h3 {
 
 <script src="./js/dashboard/dashboard-1.js"></script>
 <script type="text/javascript">
-	$(".metismenu").children().eq(3).attr('class','mm-active');
+	$(".metismenu").children().eq(3).attr('class', 'mm-active');
 </script>
 </html>
