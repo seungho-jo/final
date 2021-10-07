@@ -35,10 +35,10 @@
 		<jsp:include page="header.jsp" />
 		<jsp:include page="navi.jsp" />
 		<div class="content-body">
-			<div class="card">
+			<div class="card" style="min-height:1000px;">
 				<div class="card-body">
 					<!-- 프로젝트명 -->
-					<div class="row g-2">
+					<div class="row g-2" style="margin-top:10%">
 						<div class="col-4 mb-3">
 							<div class="form-floating">
 					     		<h4 id="title">프로젝트명 </h4>
@@ -130,4 +130,7 @@
 
 
 <script src="./js/dashboard/dashboard-1.js"></script>
+<script type="text/javascript">
+	$(".metismenu").children().eq(8).attr('class', 'mm-active');
+</script>
 </html>

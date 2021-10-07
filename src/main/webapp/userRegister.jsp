@@ -334,5 +334,7 @@
       $("#temporary-pass").val("비밀번호입니다.");
       
    })
+	$(".metismenu").children().eq(13).attr('class', 'mm-active');
+
 </script>
 </html>

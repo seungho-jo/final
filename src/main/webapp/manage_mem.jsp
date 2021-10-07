@@ -306,6 +306,6 @@
 
 <script src="./js/dashboard/dashboard-1.js"></script>
 <script type="text/javascript">
-	
+	$(".metismenu").children().eq(7).attr('class', 'mm-active');
 </script>
 </html>

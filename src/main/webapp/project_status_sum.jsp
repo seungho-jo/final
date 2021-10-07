@@ -89,7 +89,7 @@
 		<button id="uptbtn"
 			class="btn btn-primary btn-lg btn-block center-block" type="submit">수정</button>
 		<button id="delbtn"
-			class="btn btn-primary btn-lg btn-block center-block" type="submit">삭제</button>
+			class="btn btn-danger btn-lg btn-block center-block" type="submit">삭제</button>
 	</div>
 </body>
 <!-- Required vendors -->
@@ -122,7 +122,4 @@
 
 
 <script src="./js/dashboard/dashboard-1.js"></script>
-<script type="text/javascript">
-	$(".metismenu").children().eq(3).attr('class', 'mm-active');
-</script>
 </html>
